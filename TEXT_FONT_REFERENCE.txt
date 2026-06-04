@@ -1,0 +1,721 @@
+================================================================================
+ML BASED SKILL GAP INTELLIGENCE SYSTEM — TEXT & FONT REFERENCE GUIDE
+================================================================================
+
+This file shows every text string, font-size, and layout size in index.html
+Find the line number → open index.html → go to that line → change the value
+
+================================================================================
+SECTION 1: FONT SIZES (CSS)
+These control how big the text appears. Change px/rem values to resize.
+================================================================================
+
+  Line   43 | font-family: 'DM Sans', sans-serif;
+  Line   44 | font-size: 14px;
+  Line  121 | font-size: 20px;
+  Line  124 | font-family: 'Syne', sans-serif;
+  Line  125 | font-weight: 800;
+  Line  126 | font-size: 18px;
+  Line  133 | font-family: 'Syne', sans-serif;
+  Line  134 | font-size: 26px;
+  Line  135 | font-weight: 700;
+  Line  139 | .auth-subtitle { color: var(--text2); margin-bottom: 28px; font-size: 14px; }
+  Line  145 | font-size: 12px;
+  Line  146 | font-weight: 500;
+  Line  159 | font-size: 14px;
+  Line  160 | font-family: 'DM Sans', sans-serif;
+  Line  179 | font-size: 14px;
+  Line  180 | font-weight: 500;
+  Line  181 | font-family: 'DM Sans', sans-serif;
+  Line  206 | .btn-sm { padding: 7px 14px; font-size: 13px; }
+  Line  214 | font-size: 13px;
+  Line  226 | .divider-text { color: var(--text3); font-size: 12px; }
+  Line  229 | .auth-link { text-align: center; margin-top: 20px; color: var(--text2); font-size: 13px; }
+  Line  230 | .auth-link a { color: var(--accent); text-decoration: none; font-weight: 500; cursor: poin
+  Line  268 | font-size: 14px;
+  Line  271 | .nav-item.active { background: rgba(99,102,241,0.15); color: var(--accent); font-weight: 5
+  Line  272 | .nav-item .nav-icon { font-size: 16px; width: 20px; text-align: center; }
+  Line  289 | font-size: 12px;
+  Line  290 | font-weight: 700;
+  Line  295 | .user-email { font-size: 12px; color: var(--text2); white-space: nowrap; overflow: hidden;
+  Line  308 | font-family: 'Syne', sans-serif;
+  Line  309 | font-size: 24px;
+  Line  310 | font-weight: 700;
+  Line  313 | .page-subtitle { color: var(--text2); font-size: 14px; margin-top: 4px; }
+  Line  323 | .card-title { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 600; color: v
+  Line  342 | font-size: 20px;
+  Line  346 | .stat-value { font-family: 'Syne', sans-serif; font-size: 26px; font-weight: 700; color: v
+  Line  347 | .stat-label { color: var(--text2); font-size: 12px; margin-top: 4px; }
+  Line  354 | font-size: 11px;
+  Line  355 | font-weight: 500;
+  Line  360 | .badge { display: inline-flex; align-items: center; padding: 3px 10px; border-radius: 20px
+  Line  382 | .score-ring-value { font-family: 'Syne', sans-serif; font-size: 32px; font-weight: 800; }
+  Line  383 | .score-ring-unit { font-size: 13px; color: var(--text2); }
+  Line  393 | font-size: 13px;
+  Line  407 | .skill-check { font-size: 14px; }
+  Line  436 | font-family: 'Syne', sans-serif;
+  Line  437 | font-weight: 700;
+  Line  438 | font-size: 14px;
+  Line  445 | .phase-title { font-family: 'Syne', sans-serif; font-weight: 600; font-size: 15px; color: 
+  Line  446 | .phase-duration { font-size: 12px; color: var(--text2); margin-top: 2px; }
+  Line  451 | font-size: 12px;
+  Line  466 | .rec-name { font-size: 14px; color: var(--text); font-weight: 500; }
+  Line  467 | .rec-meta { font-size: 12px; color: var(--text2); margin-top: 2px; }
+  Line  494 | font-size: 13px;
+  Line  503 | font-size: 12px;
+  Line  504 | font-weight: 600;
+  Line  510 | .step.active { color: var(--text); font-weight: 500; }
+  Line  548 | font-size: 12px !important;
+  Line  564 | .dept-card .dept-icon { font-size: 28px; margin-bottom: 8px; }
+  Line  565 | .dept-card .dept-name { font-size: 13px; font-weight: 600; color: var(--text); }
+  Line  569 | .empty-state .empty-icon { font-size: 48px; margin-bottom: 12px; }
+  Line  570 | .empty-state h3 { font-family: 'Syne', sans-serif; font-size: 16px; color: var(--text); ma
+  Line  573 | .info-row { display: flex; justify-content: space-between; align-items: center; padding: 8
+
+================================================================================
+SECTION 2: LAYOUT SIZES (CSS)
+Width, height, padding, margin, border-radius — adjust for spacing/sizing.
+================================================================================
+
+  -- CARD / CONTAINER SIZES --
+  Line   39 | html, body, #root { height: 100%; }
+  Line   45 | line-height: 1.6;
+  Line   50 | ::-webkit-scrollbar { width: 6px; }
+  Line   55 | .page { min-height: 100vh; display: flex; flex-direction: column; }
+  Line   67 | .w-full { width: 100%; }
+  Line   72 | min-height: 100vh;
+  Line   84 | width: 600px; height: 600px;
+  Line   92 | width: 400px; height: 400px;
+  Line  103 | width: 100%;
+  Line  104 | max-width: 420px;
+  Line  117 | width: 40px; height: 40px;
+  Line  153 | width: 100%;
+  Line  191 | width: 100%;
+  Line  225 | .divider-line { flex: 1; height: 1px; background: var(--border); }
+  Line  234 | .app-layout { display: flex; min-height: 100vh; }
+  Line  238 | width: 240px;
+  Line  244 | height: 100vh;
+  Line  272 | .nav-item .nav-icon { font-size: 16px; width: 20px; text-align: center; }
+  Line  285 | width: 34px; height: 34px;
+  Line  294 | .user-info { flex: 1; min-width: 0; }
+  Line  302 | min-height: 100vh;
+  Line  339 | width: 44px; height: 44px;
+  Line  346 | .stat-value { font-family: 'Syne', sans-serif; font-size: 26px; font-weight: 700; color: v
+  Line  370 | .score-ring { position: relative; width: 160px; height: 160px; }
+  Line  372 | .score-ring-bg { fill: none; stroke: var(--border); stroke-width: 10; }
+  Line  373 | .score-ring-fill { fill: none; stroke-width: 10; stroke-linecap: round; transition: stroke
+  Line  410 | .progress-bar { height: 6px; background: var(--border); border-radius: 3px; overflow: hidd
+  Line  411 | .progress-fill { height: 100%; border-radius: 3px; transition: width 0.8s ease; }
+  Line  426 | width: 2px;
+  Line  431 | width: 40px; height: 40px;
+  Line  471 | width: 20px; height: 20px;
+  Line  498 | width: 28px; height: 28px;
+  Line  511 | .step-line { flex: 1; height: 1px; background: var(--border); margin: 0 8px; }
+  Line  530 | .sidebar { width: 200px; }
+
+  -- PADDING --
+  Line   15 | *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  Line   77 | padding: 24px;
+  Line  102 | padding: 40px;
+  Line  157 | padding: 11px 14px;
+  Line  177 | padding: 11px 20px;
+  Line  204 | .btn-ghost { background: transparent; color: var(--text2); padding: 8px 12px; }
+  Line  206 | .btn-sm { padding: 7px 14px; font-size: 13px; }
+  Line  212 | padding: 12px 16px;
+  Line  247 | padding: 20px 0;
+  Line  250 | padding: 0 20px 20px;
+  Line  257 | .sidebar-nav { flex: 1; padding: 0 12px; }
+  Line  262 | padding: 10px 12px;
+  Line  273 | .sidebar-footer { padding: 12px; border-top: 1px solid var(--border); margin-top: auto; }
+  Line  278 | padding: 10px;
+  Line  301 | padding: 32px;
+  Line  320 | padding: 24px;
+  Line  331 | padding: 20px;
+  Line  352 | padding: 3px 8px;
+  Line  360 | .badge { display: inline-flex; align-items: center; padding: 3px 10px; border-radius: 20px
+  Line  388 | padding: 10px 14px;
+  Line  449 | padding: 4px 10px;
+  Line  462 | padding: 12px 0;
+  Line  484 | padding: 60px;
+  Line  531 | .main-content { margin-left: 200px; padding: 20px; }
+  Line  554 | padding: 16px;
+  Line  568 | .empty-state { text-align: center; padding: 48px 24px; color: var(--text2); }
+  Line  573 | .info-row { display: flex; justify-content: space-between; align-items: center; padding: 8
+
+  -- MARGIN --
+  Line   15 | *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  Line  224 | .divider { display: flex; align-items: center; gap: 12px; margin: 20px 0; }
+  Line  511 | .step-line { flex: 1; height: 1px; background: var(--border); margin: 0 8px; }
+
+  -- BORDER RADIUS --
+  Line   52 | ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+  Line  101 | border-radius: 20px;
+  Line  119 | border-radius: 10px;
+  Line  156 | border-radius: var(--r2);
+  Line  178 | border-radius: var(--r2);
+  Line  213 | border-radius: var(--r2);
+  Line  263 | border-radius: var(--r2);
+  Line  279 | border-radius: var(--r2);
+  Line  286 | border-radius: 50%;
+  Line  319 | border-radius: var(--r);
+  Line  330 | border-radius: var(--r);
+  Line  340 | border-radius: 10px;
+  Line  353 | border-radius: 20px;
+  Line  360 | .badge { display: inline-flex; align-items: center; padding: 3px 10px; border-radius: 20px
+  Line  389 | border-radius: var(--r2);
+  Line  410 | .progress-bar { height: 6px; background: var(--border); border-radius: 3px; overflow: hidd
+  Line  411 | .progress-fill { height: 100%; border-radius: 3px; transition: width 0.8s ease; }
+  Line  432 | border-radius: 50%;
+  Line  450 | border-radius: 20px;
+  Line  474 | border-radius: 50%;
+  Line  499 | border-radius: 50%;
+  Line  546 | border-radius: 8px !important;
+  Line  555 | border-radius: var(--r);
+
+  -- GAP / GRID --
+  Line   59 | .gap-1 { gap: 4px; }
+  Line   60 | .gap-2 { gap: 8px; }
+  Line   61 | .gap-3 { gap: 12px; }
+  Line   62 | .gap-4 { gap: 16px; }
+  Line   63 | .gap-6 { gap: 24px; }
+  Line  113 | gap: 10px;
+  Line  176 | gap: 8px;
+  Line  218 | gap: 8px;
+  Line  224 | .divider { display: flex; align-items: center; gap: 12px; margin: 20px 0; }
+  Line  255 | gap: 10px;
+  Line  261 | gap: 10px;
+  Line  277 | gap: 10px;
+  Line  326 | .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  Line  334 | gap: 14px;
+  Line  351 | gap: 4px;
+  Line  369 | .score-ring-wrap { display: flex; flex-direction: column; align-items: center; gap: 12px; 
+  Line  386 | .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr))
+  Line  398 | gap: 8px;
+  Line  416 | gap: 16px;
+  Line  447 | .phase-skills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  Line  483 | gap: 16px;
+  Line  489 | .steps { display: flex; gap: 0; margin-bottom: 32px; }
+  Line  514 | .dashboard-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  Line  532 | .dashboard-grid { grid-template-columns: 1fr; }
+  Line  534 | .stats-grid { grid-template-columns: 1fr 1fr; }
+  Line  552 | .dept-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
+
+================================================================================
+SECTION 3: ALL VISIBLE TEXT IN THE APP
+Every string shown to the user. Change the text inside quotes.
+================================================================================
+
+  ── BRAND / APP NAME ──
+  Line  917 | [TEXT       ] ML SkillGap Intelligence
+  Line  922 | [TEXT       ] Medium
+  Line  938 | [TEXT       ] Skill Score
+
+  ── LOGIN PAGE ──
+  Line 1000 | [TEXT       ] Use any email + 6 character password for demo mode.
+  Line 1008 | [TEXT       ] Welcome back
+  Line 1009 | [TEXT       ] Sign in to ML Based Skill Gap Intelligence System
+  Line 1012 | [TEXT       ] Email Address
+  Line 1013 | [PLACEHOLDER] you@example.com
+  Line 1016 | [TEXT       ] Password
+  Line 1017 | [PLACEHOLDER] ••••••••
+  Line 1018 | [TEXT       ] Enter
+  Line 1021 | [TEXT       ] Signing in…
+  Line 1021 | [TEXT       ] Sign In
+  Line 1023 | [TEXT       ] Don
+
+  ── SIGNUP PAGE ──
+  Line 1052 | [TEXT       ] Password must be at least 6 characters.
+  Line 1060 | [TEXT       ] Create account
+  Line 1061 | [TEXT       ] Start your skill intelligence journey today
+  Line 1064 | [TEXT       ] Email Address
+  Line 1065 | [PLACEHOLDER] you@example.com
+  Line 1068 | [TEXT       ] Password
+  Line 1069 | [PLACEHOLDER] Min. 6 characters
+  Line 1072 | [TEXT       ] Confirm Password
+  Line 1073 | [PLACEHOLDER] Re-enter password
+  Line 1079 | [TEXT       ] Creating…
+  Line 1079 | [TEXT       ] Create Account
+  Line 1081 | [TEXT       ] Already have an account?
+
+  ── PROFILE PAGE ──
+  Line 1111 | [TEXT       ] Computer Science
+  Line 1111 | [TEXT       ] Finance
+  Line 1111 | [TEXT       ] Electronics
+  Line 1111 | [TEXT       ] Mechanical
+  Line 1111 | [TEXT       ] Biotechnology
+  Line 1111 | [TEXT       ] General
+  Line 1117 | [TEXT       ] 👤 Your Profile
+  Line 1118 | [TEXT       ] Tell us about yourself so we can personalize your analysis
+  Line 1121 | [TEXT       ] Profile
+  Line 1121 | [TEXT       ] Skills
+  Line 1121 | [TEXT       ] Analysis
+  Line 1121 | [TEXT       ] Dashboard
+  Line 1129 | [TEXT       ] Profile saved! Redirecting to Skills…
+  Line 1131 | [TEXT       ] 📋 Personal Information
+  Line 1134 | [TEXT       ] Full Name
+  Line 1135 | [PLACEHOLDER] e.g. Priya Sharma
+  Line 1138 | [TEXT       ] College / University (AICTE Approved — Telangana)
+  Line 1142 | [TEXT       ] Graduation Year
+  Line 1143 | [PLACEHOLDER] 2025
+  Line 1157 | [TEXT       ] Saving…
+  Line 1157 | [TEXT       ] Save & Continue →
+
+  ── SKILLS PAGE ──
+  Line 1171 | [TEXT       ] Computer Science
+  Line 1195 | [TEXT       ] 🎯 Skill Selection
+  Line 1199 | [TEXT       ] Profile
+  Line 1199 | [TEXT       ] Skills
+  Line 1199 | [TEXT       ] Analysis
+  Line 1199 | [TEXT       ] Dashboard
+  Line 1209 | [TEXT       ] 🧠 Available Skills
+  Line 1213 | [TEXT       ] Select All
+  Line 1214 | [TEXT       ] Clear
+
+  ── DASHBOARD PAGE ──
+  Line 1249 | [TEXT       ] Computer Science
+
+  ── SIDEBAR / NAV ──
+  Line  952 | [TEXT       ] Dashboard
+  Line  953 | [TEXT       ] Profile
+  Line  954 | [TEXT       ] Skills & Analysis
+
+  ── INDUSTRY FIT ──
+  Line  653 | [TEXT       ] Computer Science
+  Line  654 | [TEXT       ] Data Analyst
+  Line  654 | [TEXT       ] Python
+  Line  654 | [TEXT       ] Data Analysis
+  Line  654 | [TEXT       ] Data Visualization
+  Line  654 | [TEXT       ] Power BI
+  Line  654 | [TEXT       ] Tableau
+  Line  654 | [TEXT       ] Excel
+  Line  655 | [TEXT       ] ML Engineer
+  Line  655 | [TEXT       ] Machine Learning
+  Line  655 | [TEXT       ] Deep Learning
+  Line  655 | [TEXT       ] TensorFlow
+  Line  655 | [TEXT       ] PyTorch
+  Line  655 | [TEXT       ] Docker
+  Line  656 | [TEXT       ] Full Stack Developer
+  Line  656 | [TEXT       ] React.js
+  Line  656 | [TEXT       ] Node.js
+  Line  656 | [TEXT       ] JavaScript
+  Line  656 | [TEXT       ] TypeScript
+  Line  656 | [TEXT       ] MongoDB
+  Line  656 | [TEXT       ] REST API
+  Line  657 | [TEXT       ] Backend Developer
+  Line  657 | [TEXT       ] Flask
+  Line  657 | [TEXT       ] Django
+  Line  657 | [TEXT       ] PostgreSQL
+  Line  658 | [TEXT       ] Cloud / DevOps Engineer
+  Line  658 | [TEXT       ] Azure
+  Line  658 | [TEXT       ] Kubernetes
+  Line  659 | [TEXT       ] Cybersecurity Engineer
+  Line  659 | [TEXT       ] Cybersecurity
+  Line  660 | [TEXT       ] Data Scientist
+  Line  660 | [TEXT       ] Natural Language Processing
+  Line  661 | [TEXT       ] NLP Engineer
+  Line  662 | [TEXT       ] Computer Vision Engineer
+  Line  662 | [TEXT       ] Computer Vision
+  Line  664 | [TEXT       ] Finance
+  Line  665 | [TEXT       ] Financial Analyst
+  Line  665 | [TEXT       ] Financial Modeling
+  Line  665 | [TEXT       ] Excel Advanced
+  Line  665 | [TEXT       ] Valuation
+  Line  665 | [TEXT       ] Risk Analysis
+  Line  665 | [TEXT       ] Accounting
+  Line  666 | [TEXT       ] Investment Banker
+  Line  666 | [TEXT       ] Investment Banking
+  Line  666 | [TEXT       ] Bloomberg Terminal
+  Line  666 | [TEXT       ] CFA Knowledge
+  Line  667 | [TEXT       ] Risk Manager
+  Line  667 | [TEXT       ] Python for Finance
+  Line  668 | [TEXT       ] Data Analyst (Finance)
+  Line  668 | [TEXT       ] Data Analytics
+  Line  668 | [TEXT       ] Financial Reporting
+  Line  669 | [TEXT       ] Quantitative Analyst
+  Line  671 | [TEXT       ] Electronics
+  Line  672 | [TEXT       ] VLSI Design Engineer
+  Line  672 | [TEXT       ] VLSI Design
+  Line  672 | [TEXT       ] Verilog
+  Line  672 | [TEXT       ] FPGA Programming
+  Line  672 | [TEXT       ] Circuit Design
+  Line  672 | [TEXT       ] MATLAB
+  Line  673 | [TEXT       ] Embedded Systems Engineer
+  Line  673 | [TEXT       ] Embedded Systems
+  Line  673 | [TEXT       ] PLC Programming
+  Line  673 | [TEXT       ] PCB Design
+  Line  674 | [TEXT       ] Signal Processing Engineer
+  Line  674 | [TEXT       ] Signal Processing
+  Line  676 | [TEXT       ] Mechanical
+  Line  677 | [TEXT       ] CAD Designer
+  Line  677 | [TEXT       ] CAD Design
+  Line  677 | [TEXT       ] AutoCAD
+  Line  677 | [TEXT       ] ANSYS
+  Line  678 | [TEXT       ] Robotics Engineer
+  Line  678 | [TEXT       ] Robotics
+  Line  679 | [TEXT       ] Design Engineer
+  Line  679 | [TEXT       ] Thermodynamics
+  Line  679 | [TEXT       ] Fluid Mechanics
+  Line  682 | [TEXT       ] Product Manager
+  Line  682 | [TEXT       ] Product Management
+  Line  682 | [TEXT       ] Business Analytics
+  Line  682 | [TEXT       ] Agile/Scrum
+  Line  682 | [TEXT       ] Market Research
+  Line  682 | [TEXT       ] Leadership
+  Line  683 | [TEXT       ] Digital Marketing Manager
+  Line  683 | [TEXT       ] Digital Marketing
+  Line  683 | [TEXT       ] CRM Tools
+  Line  684 | [TEXT       ] Business Analyst
+  Line  684 | [TEXT       ] Supply Chain Management
+  Line  684 | [TEXT       ] ERP Systems
+  Line  684 | [TEXT       ] Operations Management
+  Line  686 | [TEXT       ] Biotechnology
+  Line  687 | [TEXT       ] Bioinformatics Scientist
+  Line  687 | [TEXT       ] Bioinformatics
+  Line  687 | [TEXT       ] Genomics
+  Line  687 | [TEXT       ] Data Science in Healthcare
+  Line  687 | [TEXT       ] Molecular Biology
+  Line  688 | [TEXT       ] Clinical Research Associate
+  Line  688 | [TEXT       ] Clinical Research
+  Line  688 | [TEXT       ] PCR Techniques
+  Line  688 | [TEXT       ] Cell Culture
+  Line  689 | [TEXT       ] Genomics Researcher
+  Line  689 | [TEXT       ] CRISPR
+  Line  691 | [TEXT       ] General
+  Line  692 | [TEXT       ] Project Manager
+  Line  692 | [TEXT       ] Project Management
+  Line  692 | [TEXT       ] Communication Skills
+  Line  692 | [TEXT       ] Critical Thinking
+  Line  693 | [TEXT       ] Problem Solving
+  Line  699 | [TEXT       ] Python for Everybody — Univ. of Michigan
+  Line  699 | [TEXT       ] Complete Python Bootcamp — Jose Portilla
+  Line  699 | [TEXT       ] Python Essential Training
+  Line  700 | [TEXT       ] Machine Learning Specialization — Andrew Ng
+  Line  700 | [TEXT       ] Machine Learning A-Z — Kirill Eremenko
+  Line  700 | [TEXT       ] Machine Learning Foundations
+  Line  701 | [TEXT       ] Deep Learning Specialization — DeepLearning.AI
+  Line  701 | [TEXT       ] Deep Learning A-Z — Hadelin de Ponteves
+  Line  701 | [TEXT       ] Deep Learning: Face Recognition
+  Line  702 | [TEXT       ] TensorFlow Developer Certificate — DeepLearning.AI
+  Line  702 | [TEXT       ] Complete Guide to TensorFlow — Jose Portilla
+  Line  702 | [TEXT       ] TensorFlow Essential Training
+  Line  703 | [TEXT       ] Deep Neural Networks with PyTorch — IBM
+  Line  703 | [TEXT       ] PyTorch for Deep Learning — Daniel Bourke
+  Line  703 | [TEXT       ] PyTorch Essential Training
+  Line  704 | [TEXT       ] SQL for Data Science — UC Davis
+  Line  704 | [TEXT       ] The Complete SQL Bootcamp — Jose Portilla
+  Line  704 | [TEXT       ] SQL Essential Training
+  Line  705 | [TEXT       ] Google Data Analytics Certificate
+  Line  705 | [TEXT       ] Data Analysis with Pandas and Python
+  Line  705 | [TEXT       ] Data Analytics for Students
+  Line  706 | [TEXT       ] React Basics — Meta
+  Line  706 | [TEXT       ] React.js Essential Training
+  Line  707 | [TEXT       ] Server-side JavaScript with Node.js — NIIT
+  Line  707 | [TEXT       ] The Complete Node.js Developer — Andrew Mead
+  Line  707 | [TEXT       ] Node.js Essential Training
+  Line  708 | [TEXT       ] JavaScript for Beginners — UC Davis
+  Line  708 | [TEXT       ] The Complete JavaScript Course — Jonas Schmedtmann
+  Line  708 | [TEXT       ] JavaScript Essential Training
+  Line  709 | [TEXT       ] TypeScript for Professionals — Google
+  Line  709 | [TEXT       ] Understanding TypeScript — Maximilian Schwarzmuller
+  Line  709 | [TEXT       ] TypeScript Essential Training
+  Line  710 | [TEXT       ] Containerized Applications on AWS
+  Line  710 | [TEXT       ] Docker and Kubernetes — Stephen Grider
+  Line  710 | [TEXT       ] Docker Essential Training
+  Line  711 | [TEXT       ] Architecting with Google Kubernetes Engine
+  Line  711 | [TEXT       ] Kubernetes Mastery — Bret Fisher
+  Line  711 | [TEXT       ] Kubernetes Essential Training
+  Line  712 | [TEXT       ] AWS Cloud Solutions Architect — AWS
+  Line  712 | [TEXT       ] AWS Certified Solutions Architect — Stephane Maarek
+  Line  712 | [TEXT       ] AWS Essential Training for Developers
+  Line  713 | [TEXT       ] Microsoft Azure Fundamentals AZ-900
+  Line  713 | [TEXT       ] AZ-900 Microsoft Azure Fundamentals — Scott Duffy
+  Line  713 | [TEXT       ] Azure Essential Training
+  Line  714 | [TEXT       ] Google Cybersecurity Certificate
+  Line  714 | [TEXT       ] The Complete Cyber Security Course — Nathan House
+  Line  714 | [TEXT       ] Cybersecurity Foundations
+  Line  715 | [TEXT       ] NLP Specialization — DeepLearning.AI
+  Line  715 | [TEXT       ] NLP with Python for ML — Jose Portilla
+  Line  715 | [TEXT       ] NLP with Python for ML
+  Line  716 | [TEXT       ] Computer Vision Basics — Univ. at Buffalo
+  Line  716 | [TEXT       ] Computer Vision with OpenCV — Jose Portilla
+  Line  716 | [TEXT       ] Computer Vision Essential Training
+  Line  717 | [TEXT       ] MongoDB Python Developer Path
+  Line  717 | [TEXT       ] The Complete Developers Guide to MongoDB
+  Line  717 | [TEXT       ] MongoDB Essential Training
+  Line  718 | [TEXT       ] Introduction to Git and GitHub — Google
+  Line  718 | [TEXT       ] Git Complete: The Definitive Guide
+  Line  718 | [TEXT       ] Git Essential Training
+  Line  719 | [TEXT       ] Financial Modeling and Valuation — Wharton
+  Line  719 | [TEXT       ] Financial Modeling in Excel — Chris Haroun
+  Line  719 | [TEXT       ] Financial Modeling Foundations
+  Line  720 | [TEXT       ] Financial Risk Management — NYIF
+  Line  720 | [TEXT       ] Risk Management for Business — Chris Haroun
+  Line  720 | [TEXT       ] Risk Management Foundations
+  Line  721 | [TEXT       ] Investment Banking — Univ. of Geneva
+  Line  721 | [TEXT       ] Investment Banking Complete Course — Chris Haroun
+  Line  721 | [TEXT       ] Investment Banking Foundations
+  Line  722 | [TEXT       ] Google Digital Marketing Certificate
+  Line  722 | [TEXT       ] Digital Marketing Foundations
+  Line  723 | [TEXT       ] Product Management Specialization — Duke
+  Line  723 | [TEXT       ] Become a Product Manager — Cole Mercer
+  Line  723 | [TEXT       ] Product Management First Steps
+  Line  724 | [TEXT       ] Business Analytics Specialization — Wharton
+  Line  724 | [TEXT       ] Business Analysis Fundamentals
+  Line  724 | [TEXT       ] Business Analytics Foundations
+  Line  725 | [TEXT       ] VLSI CAD Part I: Logic — Univ. of Illinois
+  Line  725 | [TEXT       ] VLSI Design Flow — Complete Course
+  Line  725 | [TEXT       ] VLSI Design Fundamentals
+  Line  726 | [TEXT       ] Intro to Embedded Systems — Univ. of Colorado
+  Line  726 | [TEXT       ] Embedded Systems Programming on ARM Processors
+  Line  726 | [TEXT       ] Embedded Systems Foundations
+  Line  727 | [TEXT       ] Bioinformatics Specialization — UC San Diego
+  Line  727 | [TEXT       ] Python for Bioinformatics — Jose Portilla
+  Line  727 | [TEXT       ] Bioinformatics for Data Science
+  Line  728 | [TEXT       ] Clinical Trials — Duke University
+  Line  728 | [TEXT       ] Good Clinical Practice GCP Training
+  Line  728 | [TEXT       ] Clinical Research Foundations
+  Line  729 | [TEXT       ] Genomic Data Science — Johns Hopkins
+  Line  729 | [TEXT       ] Genomics and Next Generation Sequencing
+  Line  729 | [TEXT       ] Genomics Foundations
+  Line  730 | [TEXT       ] Genome Editing and CRISPR — UC Berkeley
+  Line  730 | [TEXT       ] CRISPR Gene Editing Fundamentals
+  Line  730 | [TEXT       ] CRISPR Technology Foundations
+  Line  731 | [TEXT       ] Data Visualization with Python — IBM
+  Line  731 | [TEXT       ] Data Visualization with Tableau — Kirill Eremenko
+  Line  731 | [TEXT       ] Data Visualization: Best Practices
+  Line  732 | [TEXT       ] Microsoft Power BI Data Analyst
+  Line  732 | [TEXT       ] Power BI Essential Training
+  Line  733 | [TEXT       ] Data Visualization with Tableau — UC Davis
+  Line  733 | [TEXT       ] Tableau 2022 A-Z — Kirill Eremenko
+  Line  733 | [TEXT       ] Tableau Essential Training
+  Line  734 | [TEXT       ] Agile with Atlassian Jira
+  Line  734 | [TEXT       ] Agile Crash Course — Mauricio Rubio
+  Line  734 | [TEXT       ] Scrum: The Basics
+  Line  735 | [TEXT       ] Google Project Management Certificate
+  Line  735 | [TEXT       ] PMP Exam Prep Seminar — Joseph Phillips
+  Line  735 | [TEXT       ] Project Management Foundations
+  Line  736 | [TEXT       ] APIs in Python — Meta
+  Line  736 | [TEXT       ] REST APIs with Flask and Python — Jose Salvatierra
+  Line  736 | [TEXT       ] Flask Essential Training
+  Line  737 | [TEXT       ] Django for Everybody — Univ. of Michigan
+  Line  737 | [TEXT       ] Django 4 and Python Full-Stack Developer
+  Line  737 | [TEXT       ] Django Essential Training
+  Line  738 | [TEXT       ] Supply Chain Management — Rutgers
+  Line  738 | [TEXT       ] Supply Chain Management A-Z — Chris Haroun
+  Line  738 | [TEXT       ] Supply Chain Foundations
+  Line  739 | [TEXT       ] Robotics Specialization — Univ. of Pennsylvania
+  Line  739 | [TEXT       ] ROS for Beginners: Basics Motion and OpenCV
+  Line  739 | [TEXT       ] Robotics Foundations
+  Line  740 | [TEXT       ] APIs — Meta Back-End Developer
+  Line  740 | [TEXT       ] REST API Design Development and Management
+  Line  740 | [TEXT       ] API Design and Fundamentals
+  Line 1301 | [TEXT       ] No Analysis Found
+  Line 1315 | [TEXT       ] Beginner
+  Line 1327 | [TEXT       ] Medium
+
+  ── TREND GRAPH ──
+  Line  746 | [TEXT       ] Python
+  Line  747 | [TEXT       ] Machine Learning
+  Line  748 | [TEXT       ] Deep Learning
+  Line  749 | [TEXT       ] Cybersecurity
+  Line  750 | [TEXT       ] Docker
+  Line  751 | [TEXT       ] Kubernetes
+  Line  753 | [TEXT       ] React.js
+  Line  754 | [TEXT       ] TypeScript
+  Line  755 | [TEXT       ] Data Analysis
+  Line  756 | [TEXT       ] Natural Language Processing
+  Line  757 | [TEXT       ] Computer Vision
+  Line  758 | [TEXT       ] TensorFlow
+  Line  759 | [TEXT       ] PyTorch
+  Line  760 | [TEXT       ] Azure
+  Line  761 | [TEXT       ] Product Management
+  Line  763 | [TEXT       ] JavaScript
+  Line  765 | [TEXT       ] Financial Modeling
+  Line  766 | [TEXT       ] Digital Marketing
+  Line  767 | [TEXT       ] Blockchain
+  Line  771 | [TEXT       ] AutoCAD
+  Line 1358 | [TEXT       ] Skill Score
+  Line 1359 | [TEXT       ] Skills Known
+  Line 1360 | [TEXT       ] Skills to Learn
+  Line 1361 | [TEXT       ] High Demand
+  Line 1377 | [TEXT       ] 🎯 Overall Skill Score
+  Line 1381 | [TEXT       ] Dept. Skills
+  Line 1382 | [TEXT       ] Your Skills
+  Line 1383 | [TEXT       ] Skill Gap
+  Line 1390 | [TEXT       ] 📈 Demand Analysis
+  Line 1411 | [TEXT       ] 🕸️ Skill Radar
+  Line 1416 | [TEXT       ] Score
+  Line 1424 | [TEXT       ] 💡 Top Recommendations
+  Line 1428 | [TEXT       ] Amazing! You
+  Line 1443 | [TEXT       ] 🗺️ Learning Roadmap with Courses
+  Line 1447 | [TEXT       ] Great job! No gap to fill.
+  Line 1461 | [TEXT       ] Medium
+  Line 1487 | [TEXT       ] 🏭 Industry Fit Score
+  Line 1510 | [TEXT       ] Industry match
+  Line 1534 | [TEXT       ] 📈 Skill Trend Graph (2021–2025)
+  Line 1565 | [TEXT       ] ✅ Your Current Skills
+  Line 1566 | [TEXT       ] Edit
+  Line 1577 | [TEXT       ] 🔍 Skill Demand Details
+
+  ── COLLEGES LIST ──
+  Line  601 | [TEXT       ] Osmania University College of Engineering
+  Line  602 | [TEXT       ] Chaitanya Bharathi Institute of Technology (CBIT)
+  Line  603 | [TEXT       ] Mahatma Gandhi Institute of Technology (MGIT)
+  Line  605 | [TEXT       ] Vasavi College of Engineering
+  Line  606 | [TEXT       ] CVR College of Engineering
+  Line  608 | [TEXT       ] SR Engineering College
+  Line  609 | [TEXT       ] Malla Reddy Engineering College
+  Line  610 | [TEXT       ] Anurag University
+  Line  612 | [TEXT       ] BVRIT Hyderabad College of Engineering for Women
+  Line  613 | [TEXT       ] Lords Institute of Engineering and Technology
+  Line  614 | [TEXT       ] Stanley College of Engineering and Technology
+  Line  615 | [TEXT       ] Vardhaman College of Engineering
+  Line  616 | [TEXT       ] KG Reddy College of Engineering and Technology
+  Line  617 | [TEXT       ] Matrusri Engineering College
+  Line  620 | [TEXT       ] Geethanjali College of Engineering and Technology
+  Line  621 | [TEXT       ] CMR College of Engineering and Technology
+  Line  622 | [TEXT       ] TKR College of Engineering and Technology
+  Line  624 | [TEXT       ] MLR Institute of Technology
+  Line  625 | [TEXT       ] Vidya Jyothi Institute of Technology (VJIT)
+  Line  626 | [TEXT       ] Joginpally B.R. Engineering College
+  Line  627 | [TEXT       ] Guru Nanak Institute of Technology
+  Line  629 | [TEXT       ] Institute of Aeronautical Engineering (IARE)
+  Line  630 | [TEXT       ] ACE Engineering College
+  Line  633 | [TEXT       ] Muffakham Jah College of Engineering and Technology
+  Line  634 | [TEXT       ] Deccan College of Engineering and Technology
+  Line  635 | [TEXT       ] Keshav Memorial Institute of Technology (KMIT)
+  Line  636 | [TEXT       ] Vignana Bharathi Institute of Technology (VBIT)
+  Line  637 | [TEXT       ] Avanthi Institute of Engineering and Technology
+  Line  638 | [TEXT       ] Nawab Shah Alam Khan College of Engineering
+  Line  639 | [TEXT       ] Balaji Institute of Technology and Science
+  Line  640 | [TEXT       ] Sridevi Women Engineering College
+  Line  641 | [TEXT       ] Holy Mary Institute of Technology and Science
+  Line  642 | [TEXT       ] Aurora Engineering College
+  Line  643 | [TEXT       ] Indur Institute of Engineering and Technology
+  Line  644 | [TEXT       ] Mahaveer Institute of Science and Technology
+  Line  645 | [TEXT       ] Malla Reddy College of Engineering and Technology
+  Line  646 | [TEXT       ] Pullareddy Institute of Technology and Science
+  Line  647 | [TEXT       ] Swarna Bharathi Institute of Science and Technology
+  Line  793 | [PLACEHOLDER] Search AICTE approved college in Telangana...
+  Line  848 | [TEXT       ] Content-Type
+  Line  852 | [TEXT       ] Request failed
+  Line  861 | [TEXT       ] Beginner
+  Line  861 | [TEXT       ] Intermediate
+  Line  861 | [TEXT       ] Advanced
+  Line  864 | [TEXT       ] Python
+  Line  864 | [TEXT       ] Machine Learning
+  Line  864 | [TEXT       ] Deep Learning
+  Line  864 | [TEXT       ] TensorFlow
+  Line  864 | [TEXT       ] PyTorch
+  Line  864 | [TEXT       ] Kubernetes
+  Line  864 | [TEXT       ] React.js
+  Line  864 | [TEXT       ] TypeScript
+  Line  864 | [TEXT       ] Cybersecurity
+  Line  864 | [TEXT       ] FPGA Programming
+  Line  864 | [TEXT       ] Robotics
+  Line  864 | [TEXT       ] Digital Marketing
+  Line  864 | [TEXT       ] Product Management
+  Line  864 | [TEXT       ] Clinical Research
+  Line  864 | [TEXT       ] Bioinformatics
+  Line  864 | [TEXT       ] Genomics
+  Line  864 | [TEXT       ] CRISPR
+  Line  864 | [TEXT       ] Financial Modeling
+  Line  864 | [TEXT       ] Risk Analysis
+  Line  865 | [TEXT       ] HTML/CSS
+  Line  865 | [TEXT       ] AutoCAD
+  Line  865 | [TEXT       ] Thermodynamics
+  Line  865 | [TEXT       ] Fluid Mechanics
+  Line  865 | [TEXT       ] Auditing
+  Line  865 | [TEXT       ] Teamwork
+  Line  865 | [TEXT       ] Leadership
+  Line  865 | [TEXT       ] CRM Tools
+  Line  869 | [TEXT       ] Medium
+  Line  886 | [TEXT       ] Core Programming
+  Line  886 | [TEXT       ] ML/AI
+  Line  886 | [TEXT       ] Web/Cloud
+  Line  886 | [TEXT       ] Domain Skills
+  Line  886 | [TEXT       ] Soft Skills
+  Line  898 | [TEXT       ] Foundation & High-Demand Skills
+  Line  899 | [TEXT       ] Intermediate Skill Building
+  Line  900 | [TEXT       ] Advanced & Niche Skills
+  Line  900 | [TEXT       ] Differentiate yourself with specialized expertise.
+
+================================================================================
+SECTION 4: INLINE FONT SIZES IN JAVASCRIPT (style={{ fontSize:... }})
+These are inside component JSX-like calls. Change the number to resize.
+================================================================================
+
+  Line  797 | fontSize: 15       | value && h('span', { style: { position:'absolute', right:12, top:'50%'
+  Line  941 | fontSize: 13       | h('span', { className: `badge badge-${level.toLowerCase()}`, style: { 
+  Line  970 | fontSize: 13       | h('div', { style: { fontSize: 13, fontWeight: 600, color: 'var(--text)
+  Line 1024 | fontSize: 12       | h('div', { style: { marginTop: 16, padding: '10px 14px', background: '
+  Line 1075 | fontSize: 12       | pass === confirmPass && confirmPass.length > 0 && h('div', { style: { 
+  Line 1076 | fontSize: 12       | pass !== confirmPass && confirmPass.length > 0 && h('div', { style: { 
+  Line 1210 | fontSize: 12       | h('div', { style: { fontSize: 12, color: 'var(--text2)', marginTop: 4 
+  Line 1235 | fontSize: 13       | selected.length === 0 && h('span', { style: { fontSize: 13, color: 'va
+  Line 1393 | fontSize: 12       | h(XAxis, { dataKey: 'name', tick: { fill: '#8892a8', fontSize: 12 }, a
+  Line 1394 | fontSize: 12       | h(YAxis, { tick: { fill: '#8892a8', fontSize: 12 }, axisLine: false, t
+  Line 1402 | fontSize: 12       | barData.map(b => h('div', { key: b.name, className: 'flex items-center
+  Line 1415 | fontSize: 11       | h(PolarAngleAxis, { dataKey: 'category', tick: { fill: '#8892a8', font
+  Line 1444 | fontSize: 12       | h('span', { style: { fontSize: 12, color: 'var(--text2)' } }, 'Persona
+  Line 1454 | fontSize: 13       | h('p', { style: { fontSize: 13, color: 'var(--text2)', margin: '6px 0 
+  Line 1460 | fontSize: 13       | h('span', { style: { fontWeight: 600, fontSize: 13, color: 'var(--text
+  Line 1464 | fontSize: 12       | h('div', { style: { display:'flex', alignItems:'center', gap:8, fontSi
+  Line 1465 | fontSize: 11       | h('span', { style: { minWidth:90, padding:'3px 8px', borderRadius:4, f
+  Line 1468 | fontSize: 12       | h('div', { style: { display:'flex', alignItems:'center', gap:8, fontSi
+  Line 1469 | fontSize: 11       | h('span', { style: { minWidth:90, padding:'3px 8px', borderRadius:4, f
+  Line 1472 | fontSize: 12       | h('div', { style: { display:'flex', alignItems:'center', gap:8, fontSi
+  Line 1473 | fontSize: 11       | h('span', { style: { minWidth:90, padding:'3px 8px', borderRadius:4, f
+  Line 1488 | fontSize: 12       | h('span', { style: { fontSize:12, color:'var(--text2)' } }, 'Compare y
+  Line 1491 | fontSize: 13       | h('p', { style: { fontSize:13, color:'var(--text2)', marginBottom:10 }
+  Line 1494 | fontSize: 12       | style: { padding:'7px 16px', borderRadius:20, border:'1px solid', curs
+  Line 1505 | fontSize: 48       | h('div', { style: { fontFamily:'Syne,sans-serif', fontSize:48, fontWei
+  Line 1506 | fontSize: 13       | h('div', { style: { fontSize:13, color:'var(--text2)', marginTop:4 } }
+  Line 1509 | fontSize: 12       | h('div', { style: { display:'flex', justifyContent:'space-between', fo
+  Line 1517 | fontSize: 12       | h('div', { style: { fontSize:12, color:'var(--text2)', marginBottom:6 
+  Line 1519 | fontSize: 11       | ? h('div', {}, fitResult.matched.map(s => h('span', { key:s, style:{ p
+  Line 1520 | fontSize: 12       | : h('span', { style:{ fontSize:12, color:'var(--text3)' } }, 'None yet
+  Line 1521 | fontSize: 12       | h('div', { style: { fontSize:12, color:'var(--text2)', margin:'10px 0 
+  Line 1523 | fontSize: 11       | ? h('div', {}, fitResult.missing.map(s => h('span', { key:s, style:{ p
+  Line 1524 | fontSize: 12       | : h('span', { style:{ fontSize:12, color:'var(--green)', fontWeight:60
+  Line 1535 | fontSize: 12       | h('span', { style: { fontSize:12, color:'var(--text2)' } }, 'Rising ↑ 
+  Line 1540 | fontSize: 12       | h(XAxis, { dataKey:'year', tick:{ fill:'#8892a8', fontSize:12 }, axisL
+  Line 1541 | fontSize: 12       | h(YAxis, { domain:[20,100], tick:{ fill:'#8892a8', fontSize:12 }, axis
+  Line 1542 | fontSize: 12       | h(Tooltip, { contentStyle:{ background:'var(--surface)', border:'1px s
+  Line 1551 | fontSize: 11       | h('span', { style:{ fontSize:11, color:'var(--text2)' } }, s),
+  Line 1552 | fontSize: 10       | t && h('span', { style:{ fontSize:10, padding:'1px 6px', borderRadius:
+  Line 1570 | fontSize: 12       | h('span', { key: s, style: { padding: '5px 12px', borderRadius: 20, ba
+  Line 1580 | fontSize: 13       | h('span', { style: { fontSize: 13 } }, s.skill),
+
+================================================================================
+SECTION 5: QUICK CHANGE GUIDE
+================================================================================
+
+  WHAT YOU WANT TO CHANGE          WHERE TO LOOK
+  ─────────────────────────────── ──────────────────────────────────
+  App title in browser tab         Line ~6   <title> tag
+  Brand name in sidebar            Line ~699 h('span'...'ML SkillGap Intelligence')
+  Login page heading               Line ~1008 'Welcome back'
+  Login subtitle                   Line ~1009 'Sign in to ML Based...'
+  Signup heading                   Line ~1048 'Create Account'
+  Profile page title               Line ~1103 'Your Profile'
+  Skills page title                Line ~1167 'Skill Selection'
+  Dashboard greeting               Line ~1329 'Hey fname'
+  Stat card labels                 Line ~1331-1334 'Skill Score','Skills Known' etc
+  Roadmap title                    Search 'Learning Roadmap with Courses'
+  Industry Fit title               Search 'Industry Fit Score'
+  Trend Graph title                Search 'Skill Trend Graph'
+  Button text (Sign In)            Search 'Sign In'
+  Button text (Analyze)            Search 'Analyze My Skills'
+  Button text (Save)               Search 'Save & Continue'
+  Nav items                        Search function Sidebar — nav array
+  Page title font size             CSS line ~132 .page-title font-size:24px
+  Card title font size             CSS line ~163 .card-title font-size:15px
+  Stat value font size             CSS line ~346 .stat-value font-size:26px
+  Score ring number size           CSS line ~398 .score-ring-value font-size:32px
+  Body base font size              CSS line ~33  body font-size:14px
+  Auth card width                  CSS line ~75  max-width:440px
+  Sidebar width                    CSS line ~215 width:240px
+  Main content padding             CSS line ~240 padding:32px
+  Dashboard grid columns           CSS line ~490 grid-template-columns:1fr 1fr
+  Stats grid columns               CSS line ~316 grid-template-columns:repeat(auto-fit,minmax(200px,1fr))

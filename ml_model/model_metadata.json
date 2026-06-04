@@ -1,0 +1,128 @@
+{
+  "accuracy": 1.0,
+  "feature_cols": [
+    "department_enc",
+    "sector_enc",
+    "job_frequency",
+    "trend_score",
+    "growth_rate",
+    "average_salary_score",
+    "emerging_role",
+    "required_experience"
+  ],
+  "demand_classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "departments": [
+    "Computer Science",
+    "Finance",
+    "Electronics",
+    "Mechanical",
+    "MBA",
+    "Biotechnology"
+  ],
+  "dept_skills": {
+    "Computer Science": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "TensorFlow",
+      "Data Analysis",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Cybersecurity",
+      "DevOps",
+      "React.js",
+      "TypeScript",
+      "SQL",
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "Flask",
+      "Django",
+      "REST API",
+      "Blockchain",
+      "Git"
+    ],
+    "Finance": [
+      "Financial Modeling",
+      "Risk Analysis",
+      "Investment Banking",
+      "Python for Finance",
+      "Data Analytics",
+      "Portfolio Management",
+      "CFA Knowledge",
+      "Bloomberg Terminal",
+      "Valuation",
+      "Equity Research",
+      "Excel Advanced",
+      "Accounting",
+      "Taxation"
+    ],
+    "Electronics": [
+      "VLSI Design",
+      "Embedded Systems",
+      "FPGA Programming",
+      "IoT Systems",
+      "Power Electronics",
+      "Circuit Design",
+      "Verilog",
+      "PCB Design",
+      "Signal Processing",
+      "Microcontrollers",
+      "MATLAB",
+      "PLC Programming"
+    ],
+    "Mechanical": [
+      "Robotics",
+      "Mechatronics",
+      "Finite Element Analysis",
+      "CNC Programming",
+      "SolidWorks",
+      "ANSYS",
+      "CAD Design",
+      "3D Printing",
+      "Six Sigma",
+      "AutoCAD",
+      "Thermodynamics",
+      "Fluid Mechanics"
+    ],
+    "MBA": [
+      "Product Management",
+      "Digital Marketing",
+      "Business Analytics",
+      "Agile/Scrum",
+      "Financial Analysis",
+      "HR Analytics",
+      "Supply Chain Management",
+      "Entrepreneurship",
+      "Strategic Planning",
+      "Market Research",
+      "Operations Management",
+      "Leadership"
+    ],
+    "Biotechnology": [
+      "Bioinformatics",
+      "Genomics",
+      "CRISPR",
+      "Drug Discovery",
+      "Clinical Research",
+      "Immunology",
+      "Biostatistics",
+      "Data Science in Healthcare",
+      "Molecular Biology",
+      "PCR Techniques",
+      "Flow Cytometry",
+      "Microbiology"
+    ]
+  },
+  "dataset_stats": {
+    "total_skills": 82,
+    "high_demand": 40,
+    "medium_demand": 33,
+    "low_demand": 9
+  }
+}
