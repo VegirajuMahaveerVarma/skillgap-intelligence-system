@@ -203,18 +203,5 @@ Signup → Login → Profile Setup (Name, Dept, College)
 - SQLite database is auto-created on first backend run at `database/skillgap.db`.
 - Passwords are hashed with SHA-256 (no external auth libraries required).
 
----
-
-## 🏫 College Presentation Tips
-
-1. Open `frontend/index.html` in Chrome for the demo
-2. Login with any email + password (6+ chars)
-3. Fill profile → select skills → click Analyze
-4. Show the Dashboard with charts
-5. Explain the Decision Tree model in `ml_model/train_model.py`
-6. Show `skill_dataset.csv` as your training data
-7. Run `python train_model.py` live to show ML training output
-
----
 
 *Built with ❤️ using React, Flask, and scikit-learn*
