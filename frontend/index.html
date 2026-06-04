@@ -832,8 +832,7 @@ select.form-input { cursor: pointer; }
 const { createElement: h, useState, useEffect, useRef, useContext, createContext } = React;
 
 // ── Constants ────────────────────────────────────────────────────────────────
-const API_BASE = (window.location.port === '5000') ? window.location.origin : 'http://localhost:5000';
-
+const API_BASE = window.location.origin;
 // Fallback demo data (shown when backend not available)
 const DEMO_DEPARTMENTS = ['Computer Science', 'Finance', 'Electronics', 'Mechanical', 'MBA', 'Biotechnology'];
 const DEMO_SKILLS = {
